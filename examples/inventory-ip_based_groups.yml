@@ -1,0 +1,6 @@
+---
+- name: inventory_plugins
+  hosts: localhost
+  tasks:
+    - debug:
+        var: groups
